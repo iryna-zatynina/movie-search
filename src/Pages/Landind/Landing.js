@@ -6,7 +6,7 @@ import Introduction from "../../Components/Introduction/Introduction";
 const Landing = () => {
     return (
         <div className='Landing'>
-            <Header />
+            <Header showSearchForm={false}/>
             <Introduction />
         </div>
     );
