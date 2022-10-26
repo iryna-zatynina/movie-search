@@ -12,7 +12,7 @@ const Introduction = () => {
                     <h1>{t("Big movies fun?")}</h1>
                     <h2>{t("Huge collection of movies, TV shows, and more.")}</h2>
                     <h3>{t("Find your favourites and watch anytime.")}</h3>
-                    <button><Link className='link' to={'/search'}>{t("Get started")}</Link></button>
+                    <Link className='link' to={'/search'}><button>{t("Get started")}</button></Link>
                 </div>
             </div>
         </div>
