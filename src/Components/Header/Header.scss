@@ -14,9 +14,46 @@
         color: #ccb245;
       }
     }
+    .nav-block {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
     .dropdown {
       color: white;
     }
   }
+}
+
+@media screen and (max-width: 767px) {
+  .Header {
+    nav {
+      align-items: start;
+      .nav-block {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .Header {
+    nav {
+      flex-direction: column;
+      position: relative;
+    }
+    .logo {
+      font-size: 30px !important;
+    }
+    .nav-block {
+      position: absolute;
+      top: 28px;
+      right: 0;
+      gap: 30px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
 
 }

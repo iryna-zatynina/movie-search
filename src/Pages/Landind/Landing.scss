@@ -1,6 +1,12 @@
 .Landing {
-  background: url("../../recourses/img/cinema-bg.jpg") center;
+  background: url("../../recourses/img/cinema-bg.jpg") 65%;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1023px) {
+  .Landing {
+    background-position: 35%;
+  }
 }

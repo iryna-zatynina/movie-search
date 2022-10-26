@@ -8,8 +8,8 @@ const FilmInfo = () => {
     return (
         <div className="FilmInfo">
             <div className="container">
-                <img src={poster} alt="film poster"/>
-                <div>
+                <div className="FilmInfo__img"><img src={poster} alt="film poster"/></div>
+                <div className="FilmInfo__main">
                     <h2>Forrest Gump</h2>
                     <p><span>{t("Year")}:</span> 1994</p>
                     <p><span>{t("Country")}:</span> United States</p>
