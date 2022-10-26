@@ -1,0 +1,21 @@
+.SearchForm {
+  display: flex;
+  gap: 10px;
+  input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+  }
+  button {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c4ab3e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+}

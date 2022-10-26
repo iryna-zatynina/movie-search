@@ -1,0 +1,32 @@
+.FilmInfo {
+  margin-top: 30px;
+  color: white;
+  .container {
+    display: flex;
+    gap: 30px;
+    img {
+      height: 500px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    p {
+      letter-spacing: 1px;
+      line-height: 110%;
+    }
+    span {
+      color: #3f3c3c;
+      font-weight: bold;
+    }
+    .actors {
+      list-style: none;
+      padding: 0;
+      min-width: 150px;
+      li {
+        margin-bottom: 6px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,18 @@
+.FilmCard {
+  width: fit-content;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  &:hover h4 {
+    text-decoration: underline;
+  }
+  img {
+    box-shadow: 5px 5px 10px #3f3c3c;
+    margin-bottom: 14px;
+    height: 340px;
+  }
+  h5 {
+    color: #c4ab3e;
+  }
+
+}

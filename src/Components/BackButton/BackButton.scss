@@ -1,0 +1,11 @@
+.BackButton {
+  color: white;
+  border: none;
+  background: #3f3c3c;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
