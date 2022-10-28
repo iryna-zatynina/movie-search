@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
 import {useTranslation} from "react-i18next";
-import "./SearchForm.scss"
-import {logDOM} from "@testing-library/react";
+import "./SearchForm.scss";
+import AppContext from "../../Context/AppContext";
 
-const SearchForm = ({filmValue, setFilmValue, getFilms, validationMessage, setValidationMessage}) => {
+const SearchForm = () => {
     const {t} = useTranslation();
-
+    const {filmValue, setFilmValue, getFilms, validationMessage, setValidationMessage} = useContext(AppContext);
     const onButtonSearchClick = (e) => {
         e.preventDefault();
         const regex = /[a-zA-Z]+$/g;
