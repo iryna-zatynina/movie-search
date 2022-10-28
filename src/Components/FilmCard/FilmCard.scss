@@ -1,5 +1,5 @@
 .FilmCard {
-  width: fit-content;
+  width: min-content;
   text-align: center;
   color: white;
   cursor: pointer;
@@ -10,6 +10,9 @@
     box-shadow: 5px 5px 10px #3f3c3c;
     margin-bottom: 14px;
     height: 340px;
+  }
+  h4{
+    font-size: 20px;
   }
   h5 {
     color: #c4ab3e;

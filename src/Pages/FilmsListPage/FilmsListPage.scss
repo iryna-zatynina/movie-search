@@ -1,3 +1,11 @@
-.FilmsList {
+.FilmsListPage {
   background: #181818;
+  min-height: 100vh;
+  .error-message {
+    color: #c4ab3e;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+  }
 }
