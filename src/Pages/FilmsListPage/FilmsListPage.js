@@ -29,9 +29,11 @@ const FilmsListPage = () => {
             .catch(() => {
                 setValidationMessage("There are no such films")
             })
+            .finally(() => {
+                
+            })
     }
 
-    console.log(filmsInfo)
     return (
         <AppContext.Provider value={{filmValue, setFilmValue, getFilms, validationMessage, setValidationMessage}}>
             <div className="FilmsListPage">

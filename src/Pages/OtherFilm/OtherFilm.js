@@ -12,14 +12,14 @@ const OtherFilm = () => {
     const rate = useParams().rate;
 
     const [loader, setLoader] = useState(false);
-    const [filmInfo, setFilmInfo] = useState({});
+    const [filmData, setFilmData] = useState({});
 
     useEffect(() => {
         setLoader(true);
         axios.get(`https://www.omdbapi.com/?apikey=9282a34&plot=full&i=${rate}`)
             .then((response) => {
                 setLoader(false)
-                setFilmInfo(response.data);
+                setFilmData(response.data);
             })
     }, [rate])
 
@@ -27,7 +27,7 @@ const OtherFilm = () => {
         <div className="OtherFilm">
             <Header showSearchForm={false} />
             <BackButton linkBack={"/search"}/>
-            <FilmInfo filmInfo={filmInfo}/>
+            <FilmInfo filmData={filmData}/>
             {loader && <Loader/>}
         </div>
     );

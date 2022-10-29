@@ -4,7 +4,7 @@ import {NavDropdown} from "react-bootstrap";
 import './Header.scss'
 import SearchForm from "../SearchForm/SearchForm";
 
-const Header = ({showSearchForm, filmValue, setFilmValue, getFilms, validationMessage, setValidationMessage}) => {
+const Header = ({showSearchForm}) => {
     const {t, i18n} = useTranslation();
     return (
         <header className='Header'>
@@ -12,7 +12,7 @@ const Header = ({showSearchForm, filmValue, setFilmValue, getFilms, validationMe
                 <nav>
                     <div className='logo'>Movie <span>Search</span></div>
                     <div className="nav-block">
-                        {showSearchForm ? <SearchForm filmValue={filmValue} setFilmValue={setFilmValue} getFilms={getFilms} validationMessage={validationMessage} setValidationMessage={setValidationMessage} /> : ""}
+                        {showSearchForm ? <SearchForm  /> : ""}
                         <NavDropdown
                             id="nav-dropdown-dark-example"
                             title={t("Language")}

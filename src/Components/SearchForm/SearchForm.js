@@ -6,6 +6,7 @@ import AppContext from "../../Context/AppContext";
 const SearchForm = () => {
     const {t} = useTranslation();
     const {filmValue, setFilmValue, getFilms, validationMessage, setValidationMessage} = useContext(AppContext);
+
     const onButtonSearchClick = (e) => {
         e.preventDefault();
         const regex = /[a-zA-Z]+$/g;
