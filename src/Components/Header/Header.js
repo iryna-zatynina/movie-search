@@ -12,7 +12,7 @@ const Header = ({showSearchForm}) => {
                 <nav>
                     <div className='logo'>Movie <span>Search</span></div>
                     <div className="nav-block">
-                        {showSearchForm ? <SearchForm /> : ""}
+                        {showSearchForm ? <SearchForm  /> : ""}
                         <NavDropdown
                             id="nav-dropdown-dark-example"
                             title={t("Language")}

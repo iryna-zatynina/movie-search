@@ -16,5 +16,9 @@
   "Runtime": "Runtime",
   "Director": "Director",
   "Actors": "Actors",
-  "Back": "Back"
+  "Back": "Back",
+  "Ooops... There are no such films.": "Ooops... There are no such films.",
+  "Try something else!": "Try something else!",
+  "Enter latin letters": "Enter latin letters",
+  "Too short name": "Too short name"
 }

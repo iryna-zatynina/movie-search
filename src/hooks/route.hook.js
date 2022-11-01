@@ -10,7 +10,7 @@ const useRoutes = () => {
         <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/search" element={<FilmsListPage />} />
-            <Route path="/id" element={<OtherFilm />} />
+            <Route path="/imdbID:rate" element={<OtherFilm />} />
         </Routes>
     )
 }

@@ -16,5 +16,9 @@
   "Runtime": "Тривалість",
   "Director": "Режисер",
   "Actors": "Актори",
-  "Back": "Назад"
+  "Back": "Назад",
+  "Ooops... There are no such films.": "Упс... Нема такого фільмую",
+  "Try something else!": "Спробуй щось інше!",
+  "Enter latin letters": "Введи латинські букви",
+  "Too short name": "Занадто коротка назва"
 }

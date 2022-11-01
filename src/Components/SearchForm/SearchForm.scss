@@ -19,6 +19,9 @@
     border: none;
   }
 }
+.validationMessage {
+  color: white;
+}
 @media screen and (max-width: 400px) {
   .SearchForm {
     flex-direction: column;
