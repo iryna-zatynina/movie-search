@@ -6,11 +6,12 @@ import OtherFilm from "../Pages/OtherFilm/OtherFilm";
 
 
 const useRoutes = () => {
+
     return (
         <Routes>
-            <Route path="/" element={<Landing />} />
-            <Route path="/search" element={<FilmsListPage />} />
-            <Route path="/imdbID:rate" element={<OtherFilm />} />
+            <Route path="/" element={<Landing/>}/>
+            <Route path="/search" element={<FilmsListPage/>}/>
+            <Route path="/imdbID:rate" element={<OtherFilm/>}/>
         </Routes>
     )
 }
